@@ -257,6 +257,9 @@ export class HomeComponent implements OnInit {
       this.paginator.isLoading = false;
       console.log(error);
     });
+
+    // console.log(this.covid19DisplayData);
+
   }
 
   /**
